@@ -21,7 +21,7 @@ def generate_text_file(file_path, size_gb, block_size=1024*1024):
     print("Tiempo de generación del archivo:", end_time - start_time, "segundos")
 
 # file_path = 'texto_20GB.txt'
-file_path = "texto_20GB.txt"
-size_gb = 1000
+file_path = "texto_50MB.txt"
+size_gb = 10
 
 generate_text_file(file_path, size_gb)
